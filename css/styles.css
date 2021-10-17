@@ -226,6 +226,7 @@ body {
 
 .features-text {
   margin-top: 0;
+  margin-bottom: 0;
 
   font-weight: normal;
   font-size: 14px;
@@ -269,6 +270,26 @@ body {
 }
 
 /* ---------------about--------------- */
+
+.about {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  text-align: center;
+}
+
+.about-title {
+  margin-bottom: 50px;
+}
+
+.about-list {
+  display: flex;
+  margin-bottom: 0;
+}
+
+.about-list > li:not(:last-child) {
+  margin-right: 30px;
+}
 
 /* ---------------team--------------- */
 
