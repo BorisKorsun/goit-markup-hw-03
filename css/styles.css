@@ -284,6 +284,8 @@ body {
 
 .about-list {
   display: flex;
+  justify-content: space-around;
+  padding-left: 0;
   margin-bottom: 0;
 }
 
@@ -293,7 +295,30 @@ body {
 
 /* ---------------team--------------- */
 
+.team {
+  padding-top: 94px;
+
+  color: var(--secondary-background-color);
+}
+
+.team-title {
+  margin-bottom: 50px;
+
+  text-align: center;
+}
+
+.team-list {
+  display: flex;
+  padding-left: 0;
+}
+
+.team-list > li:not(:last-child) {
+  margin-right: 30px;
+}
+
 .masters-name {
+  margin-bottom: 0;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -303,12 +328,35 @@ body {
 }
 
 .team-text {
+  margin-top: 0;
+  margin-bottom: 0;
+
   font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
+}
+
+.team-div-first {
+  display: flex;
+  flex-direction: column;
+}
+
+.team-div-second {
+  display: flex;
+  flex-direction: column;
+}
+
+.team-div-third {
+  display: flex;
+  flex-direction: column;
+}
+
+.team-div-fourth {
+  display: flex;
+  flex-direction: column;
 }
 
 /* ---------------footer--------------- */
