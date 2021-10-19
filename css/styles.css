@@ -42,6 +42,7 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  margin: 0 auto;
 }
 
 .btn {
@@ -63,6 +64,11 @@ body {
 }
 
 /* ---------------header--------------- */
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 
 .header-nav {
   display: flex;
@@ -92,13 +98,9 @@ body {
   margin-right: 50px;
 }
 
-.header .link {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
 .brand-link {
+  padding-top: 24px;
+  padding-bottom: 25px;
   margin-right: 93px;
 
   font-family: Raleway;
@@ -115,6 +117,9 @@ body {
 }
 
 .nav-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -167,10 +172,14 @@ body {
 }
 
 .hero-title {
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 0;
   margin-bottom: 30px;
 
   color: var(--primary-title-color);
+
+  width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -236,8 +245,6 @@ body {
 }
 
 .features-list > li {
-  display: flex;
-  flex-direction: column;
   width: calc((100% - 90px) / 4);
 }
 
@@ -284,9 +291,9 @@ body {
 
 .team {
   padding-top: 94px;
+  padding-bottom: 94px;
 
   color: var(--secondary-background-color);
-  padding-bottom: 94px;
 }
 
 .team-title {
@@ -328,21 +335,25 @@ body {
 }
 
 .team-div-first {
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
 }
 
 .team-div-second {
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
 }
 
 .team-div-third {
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
 }
 
 .team-div-fourth {
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
 }
@@ -357,7 +368,8 @@ body {
 }
 
 .footer-brand-link {
-  padding-left: 215px;
+  display: block;
+  margin-bottom: 20px;
 
   font-family: Raleway;
   font-style: normal;
@@ -373,10 +385,14 @@ body {
 }
 
 .footer-list {
+  padding-left: 0;
   display: flex;
   flex-direction: column;
-  padding-left: 215px;
   margin-bottom: 0;
+}
+
+.footer-list > .item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .footer-link-place {
@@ -386,6 +402,7 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+
 .footer-link-place:hover,
 .footer-link-place:focus {
   color: var(--accent-color);
