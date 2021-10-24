@@ -67,6 +67,7 @@ body {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+  border-bottom: 1px solid #ECECEC;
 }
 
 /* nav-list */
@@ -176,7 +177,7 @@ body {
   display: flex;
   padding-left: 0;
   margin-top: 0;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   justify-content: center;
 }
 
@@ -199,6 +200,16 @@ body {
 
 .gallery-list > .item:not(:nth-child(n + 6)) {
   margin-bottom: 30px;
+}
+
+.gallery-list > .item {
+  width: 370px;
+  border: 1px solid #EEEEEE;
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+}
+
+.item-sixth {
+  height: 386.164px;
 }
 
 .gallery-div {
