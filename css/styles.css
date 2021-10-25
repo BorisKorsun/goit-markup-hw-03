@@ -252,9 +252,7 @@ body {
   margin-bottom: 0;
 }
 
-.features-list > .item:not(:nth-child(4n)) {
-  margin-right: 30px;
-}
+
 
 
 
@@ -286,7 +284,7 @@ body {
 
 .team {
   padding-top: 94px;
-
+  padding-bottom: 94px;
   color: var(--secondary-background-color);
 }
 
@@ -334,9 +332,6 @@ body {
   flex-direction: column;
 }
 
-.team-div {
-  padding-bottom: 94px;
-}
 
 .team-div-second {
   padding-top: 30px;

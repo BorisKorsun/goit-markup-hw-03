@@ -198,23 +198,25 @@ body {
   margin-right: 30px;
 }
 
-.gallery-list > .item:not(:nth-child(n + 6)) {
+.gallery-list > .item:not(:nth-child(n + 7)) {
   margin-bottom: 30px;
 }
 
 .gallery-list > .item {
   width: 370px;
   border: 1px solid #EEEEEE;
+}
+
+.gallery-list > .item:hover {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
 
-.item-sixth {
-  height: 386.164px;
-}
 
 .gallery-div {
+  padding-top: 30px;
   padding-left: 24px;
   padding-right: 24px;
+  padding-bottom: 90px;
 }
 /* - */
 
@@ -247,9 +249,6 @@ body {
   padding-bottom: 6px;
 }
 
-.gallery-img {
-  margin-bottom: 20px;
-}
 
 .gallery-title {
   margin-top: 0;
@@ -289,6 +288,9 @@ body {
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
+}
+.footer-list > .item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .footer-brand-link {
