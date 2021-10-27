@@ -202,8 +202,10 @@ body {
 }
 
 .gallery-div {
+  padding-top: 20px;
   padding-left: 24px;
   padding-right: 24px;
+  padding-bottom: 20px;
 }
 /* - */
 
@@ -234,10 +236,6 @@ body {
   padding-right: 22px;
   padding-top: 6px;
   padding-bottom: 6px;
-}
-
-.gallery-img {
-  margin-bottom: 20px;
 }
 
 .gallery-title {
