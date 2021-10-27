@@ -23,9 +23,6 @@ body {
   font-family: "roboto", sans-serif;
 }
 
-:root {
-}
-
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -207,7 +204,8 @@ body {
   border: 1px solid #eeeeee;
 }
 
-.gallery-list > .item:hover {
+.gallery-list > .item:hover,
+.gallery-list > .item:focus {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
 
